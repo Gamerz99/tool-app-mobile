@@ -30,7 +30,6 @@ export class PickToolPage {
       loading.dismiss();
     }, error => {
       loading.dismiss();
-      alert("Error")
     })
   }
 
@@ -45,7 +44,7 @@ export class PickToolPage {
       loading.dismiss();
     }, error => {
       loading.dismiss();
-      alert("Error")
+      alert("Not found")
     })
   }
 
@@ -60,7 +59,7 @@ export class PickToolPage {
       loading.dismiss();
     }, error => {
       loading.dismiss();
-      alert("Error")
+      alert("Not Found")
     })
   }
 

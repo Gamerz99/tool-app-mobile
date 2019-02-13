@@ -14,6 +14,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
 import { ServiceProvider } from '../providers/service/service';
 import { PickToolPage } from '../pages/pick-tool/pick-tool';
 import { PickDetailPage } from '../pages/pick-detail/pick-detail';
+import { ReturnToolPage } from '../pages/return-tool/return-tool';
+import { ReturnDetailPage } from '../pages/return-detail/return-detail';
 
 @NgModule({
   declarations: [
@@ -22,7 +24,9 @@ import { PickDetailPage } from '../pages/pick-detail/pick-detail';
     LoginPage,
     LogoutPage,
     PickToolPage,
-    PickDetailPage
+    PickDetailPage,
+    ReturnToolPage,
+    ReturnDetailPage
   ],
   imports: [
     BrowserModule,
@@ -36,7 +40,9 @@ import { PickDetailPage } from '../pages/pick-detail/pick-detail';
     LoginPage,
     LogoutPage,
     PickToolPage,
-    PickDetailPage
+    PickDetailPage,
+    ReturnToolPage,
+    ReturnDetailPage
   ],
   providers: [
     CallNumber,

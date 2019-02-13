@@ -1,0 +1,28 @@
+<ion-header>
+  <ion-navbar color="primary">
+    <ion-title>Your Tool List</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+  <div *ngIf="result">
+    <ion-card *ngFor="let item of result" class="card-background">
+      <ion-item>
+        <ion-avatar item-start>
+          <img src="assets/imgs/logo.png" class="online-image">
+        </ion-avatar>
+        <div class="card-title">Tool Name : {{item.tool}}</div>
+        <p class="card-subtitle">Tool Brand : {{item.brand}}</p>
+        <p class="card-subtitle">Tool Code : {{item.barcode}}</p>
+      </ion-item>
+      <ion-fab right middle>
+        <button ion-fab mini color="danger" (click)='return(item.stockid)'>
+          <ion-icon small name="remove"></ion-icon>
+        </button>
+      </ion-fab>
+    </ion-card>
+  </div>
+  <div *ngIf="!result">
+    <p class="not">Not found</p>
+  </div>
+</ion-content>

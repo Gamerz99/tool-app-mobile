@@ -10,8 +10,8 @@ import { HomePage } from '../home/home';
 })
 export class LoginPage {
   credentials = {
-    email: "emp1@gmail.com",
-    password: "1234"
+    email: null,
+    password: null
   }
 
   userdata = {

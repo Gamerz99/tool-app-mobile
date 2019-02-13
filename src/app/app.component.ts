@@ -6,13 +6,15 @@ import { SplashScreen } from '@ionic-native/splash-screen';
 import { HomePage } from '../pages/home/home';
 import { LoginPage } from '../pages/login/login';
 import { LogoutPage } from '../pages/logout/logout';
+import { PickToolPage } from '../pages/pick-tool/pick-tool';
+import { ReturnToolPage } from '../pages/return-tool/return-tool';
 
 @Component({
   templateUrl: 'app.html'
 })
 export class MyApp {
   @ViewChild(Nav) nav: Nav;
-
+  userdata: any;
   rootPage: any;
 
   pages: Array<{ title: string, component: any }>;
@@ -20,9 +22,14 @@ export class MyApp {
   constructor(public platform: Platform, public statusBar: StatusBar, public splashScreen: SplashScreen) {
     this.initializeApp();
 
+    if (localStorage.getItem('userdata')) {
+      this.userdata = JSON.parse(localStorage.getItem('userdata'));
+    }
     // used for an example of ngFor and navigation
     this.pages = [
       { title: 'Home', component: HomePage },
+      { title: 'Pick Tool', component: PickToolPage },
+      { title: 'Return Tool', component: ReturnToolPage },
       { title: 'Log Out', component: LogoutPage },
     ];
 
@@ -42,8 +49,10 @@ export class MyApp {
   }
 
   openPage(page) {
-    // Reset the content nav to have just this page
-    // we wouldn't want the back button to show in this scenario
-    this.nav.setRoot(page.component);
+    if (page == HomePage || page == LogoutPage) {
+      this.nav.setRoot(page.component);
+    } else {
+      this.nav.push(page.component);
+    }
   }
 }

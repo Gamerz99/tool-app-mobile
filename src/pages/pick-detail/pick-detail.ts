@@ -38,7 +38,6 @@ export class PickDetailPage {
       loading.dismiss();
     }, error => {
       loading.dismiss();
-      alert("Error")
     })
   }
 

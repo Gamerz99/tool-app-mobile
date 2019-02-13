@@ -29,8 +29,11 @@
       <button ion-button block color="danger" (click)="submit()">Submit</button>
     </div>
     <div padding class="option" *ngIf="stock.stat == 3">
-      <p class="p">Options</p>
-      <ion-icon name="arrow-dropdown" (click)="option()"></ion-icon>
+      <span (click)="option()">
+        <p class="p">Options</p>
+        <ion-icon name="arrow-dropdown"></ion-icon>
+      </span>
+
       <div *ngIf="button == true">
         <p class="reserved">!Get your tool from {{stock.reserved}} and submit</p><br>
         <span>
@@ -38,5 +41,8 @@
         </span>
       </div>
     </div>
+  </div>
+  <div *ngIf="!stock">
+    <p class="not">Not found</p>
   </div>
 </ion-content>

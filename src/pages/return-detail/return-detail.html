@@ -1,0 +1,25 @@
+<ion-header>
+  <ion-navbar color="primary">
+    <ion-title>Return Your Tool</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+  <div *ngIf="stock">
+    <div class="profile-media">
+      <div class="profile-details">
+        <img src="assets/imgs/logo.png" class="img-circle online-image">
+        <h5 class="name">Tool Name : {{stock.tool}}</h5>
+        <p class="p">Tool Brand : {{stock.brand}}</p>
+        <p class="p">Tool Code : {{stock.barcode}}</p>
+        <p class="p">Tool Description : {{stock.description}}</p>
+      </div>
+    </div>
+    <div padding>
+      <button ion-button block color="danger" (click)="submit()">Submit</button>
+    </div>
+  </div>
+  <div *ngIf="!stock">
+    <p class="not">Not found</p>
+  </div>
+</ion-content>
