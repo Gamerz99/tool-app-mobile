@@ -1,0 +1,27 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /mnt/a1433b4f-4957-4622-af0e-733cd85070b5/Development/ionic/tool-app/platforms/android/CordovaLib/AndroidManifest.xml:20:1-23:12
+INJECTED from /mnt/a1433b4f-4957-4622-af0e-733cd85070b5/Development/ionic/tool-app/platforms/android/CordovaLib/AndroidManifest.xml:20:1-23:12
+INJECTED from /mnt/a1433b4f-4957-4622-af0e-733cd85070b5/Development/ionic/tool-app/platforms/android/CordovaLib/AndroidManifest.xml:20:1-23:12
+INJECTED from /mnt/a1433b4f-4957-4622-af0e-733cd85070b5/Development/ionic/tool-app/platforms/android/CordovaLib/AndroidManifest.xml:20:1-23:12
+INJECTED from /mnt/a1433b4f-4957-4622-af0e-733cd85070b5/Development/ionic/tool-app/platforms/android/CordovaLib/AndroidManifest.xml:20:1-23:12
+INJECTED from /mnt/a1433b4f-4957-4622-af0e-733cd85070b5/Development/ionic/tool-app/platforms/android/CordovaLib/AndroidManifest.xml:20:1-23:12
+INJECTED from /mnt/a1433b4f-4957-4622-af0e-733cd85070b5/Development/ionic/tool-app/platforms/android/CordovaLib/AndroidManifest.xml:20:1-23:12
+	package
+		ADDED from /mnt/a1433b4f-4957-4622-af0e-733cd85070b5/Development/ionic/tool-app/platforms/android/CordovaLib/AndroidManifest.xml:21:7-35
+		INJECTED from /mnt/a1433b4f-4957-4622-af0e-733cd85070b5/Development/ionic/tool-app/platforms/android/CordovaLib/AndroidManifest.xml
+		INJECTED from /mnt/a1433b4f-4957-4622-af0e-733cd85070b5/Development/ionic/tool-app/platforms/android/CordovaLib/AndroidManifest.xml
+	android:versionName
+		ADDED from /mnt/a1433b4f-4957-4622-af0e-733cd85070b5/Development/ionic/tool-app/platforms/android/CordovaLib/AndroidManifest.xml:21:36-61
+		INJECTED from /mnt/a1433b4f-4957-4622-af0e-733cd85070b5/Development/ionic/tool-app/platforms/android/CordovaLib/AndroidManifest.xml
+		INJECTED from /mnt/a1433b4f-4957-4622-af0e-733cd85070b5/Development/ionic/tool-app/platforms/android/CordovaLib/AndroidManifest.xml
+	xmlns:android
+		ADDED from /mnt/a1433b4f-4957-4622-af0e-733cd85070b5/Development/ionic/tool-app/platforms/android/CordovaLib/AndroidManifest.xml:20:11-69
+	android:versionCode
+		ADDED from /mnt/a1433b4f-4957-4622-af0e-733cd85070b5/Development/ionic/tool-app/platforms/android/CordovaLib/AndroidManifest.xml:21:62-85
+		INJECTED from /mnt/a1433b4f-4957-4622-af0e-733cd85070b5/Development/ionic/tool-app/platforms/android/CordovaLib/AndroidManifest.xml
+		INJECTED from /mnt/a1433b4f-4957-4622-af0e-733cd85070b5/Development/ionic/tool-app/platforms/android/CordovaLib/AndroidManifest.xml
+uses-sdk
+ADDED from /mnt/a1433b4f-4957-4622-af0e-733cd85070b5/Development/ionic/tool-app/platforms/android/CordovaLib/AndroidManifest.xml:22:5-44
+	android:minSdkVersion
+		ADDED from /mnt/a1433b4f-4957-4622-af0e-733cd85070b5/Development/ionic/tool-app/platforms/android/CordovaLib/AndroidManifest.xml:22:15-41

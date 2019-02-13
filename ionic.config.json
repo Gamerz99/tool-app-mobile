@@ -1,0 +1,7 @@
+{
+  "name": "tool-app",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}

@@ -1,0 +1,45 @@
+<ion-header>
+  <ion-navbar color="primary">
+    <ion-title>Pick Tool</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+  <div *ngIf="!result" padding>
+    <ion-list>
+      <ion-item>
+        <ion-label>Tool</ion-label>
+        <ion-select [(ngModel)]="data.tool" interface="action-sheet" (ionChange)="brand($event)">
+          <ion-option *ngFor="let res of tools" value="{{res.name}}">{{res.name}}</ion-option>
+        </ion-select>
+      </ion-item>
+      <ion-item>
+        <ion-label>Brand</ion-label>
+        <ion-select [(ngModel)]="data.brand" interface="action-sheet">
+          <ion-option *ngFor="let res of brands" value="{{res.id}}">{{res.name}}</ion-option>
+        </ion-select>
+      </ion-item>
+    </ion-list>
+    <button ion-button block color="danger" (click)="search()">Search</button>
+  </div>
+  <div *ngIf="result">
+    <ion-card *ngFor="let item of result" class="card-background">
+      <ion-item>
+        <ion-avatar item-start>
+          <img *ngIf="item.stat == 1" src="assets/imgs/logo.png" class="online-image">
+          <img *ngIf="item.stat == 3" src="assets/imgs/logo.png" class="offline-image">
+        </ion-avatar>
+        <div class="card-title">Tool Name : {{item.tool}}</div>
+        <p class="card-subtitle">Tool Code : {{item.barcode}}</p>
+      </ion-item>
+      <ion-fab right middle>
+        <button ion-fab mini color="danger" (click)='pick(item.id)'>
+          <ion-icon small name="ios-arrow-forward"></ion-icon>
+        </button>
+      </ion-fab>
+    </ion-card>
+    <div padding>
+      <button ion-button block color="danger" (click)="clear()">Clear</button>
+    </div>
+  </div>
+</ion-content>
