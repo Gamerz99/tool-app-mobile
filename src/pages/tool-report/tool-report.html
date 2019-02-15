@@ -1,0 +1,29 @@
+<ion-header>
+  <ion-navbar color="primary">
+    <ion-title>Monthly Report</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+  <div *ngIf="result">
+    <ion-card *ngFor="let item of result">
+      <div text-right style="padding-right: 5px; font-weight: 500;">
+        #{{item.id}}
+      </div>
+      <ion-card-content>
+        <div style="color: green;">
+          Tool Name : {{item.tool}}
+        </div>
+        Brand : {{item.brand}} , Code : {{item.barcode}} <br>
+        Pick Date : {{item.created_at}} - {{item.time}}<br>
+        Return Date : {{item.release_date}} - {{item.release_time}}
+        <div style="color: red;">
+          Received From : {{item.received_from}}
+        </div>
+      </ion-card-content>
+    </ion-card>
+  </div>
+  <div *ngIf="!result">
+    <p class="not">Not found</p>
+  </div>
+</ion-content>

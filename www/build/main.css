@@ -25692,6 +25692,29 @@ ion-navbar.toolbar {
   min-height: 46px;
 }
 
+.prof-image {
+  width: 70px;
+  height: 70px;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.ps {
+  color: white;
+  padding: 2px;
+  margin: 2px;
+}
+
+page-home .image {
+  padding: 60px;
+}
+
+page-home .button {
+  margin-bottom: 10px;
+}
+
 page-login .pad {
   padding: 10px;
   padding-top: 100px;
@@ -25916,6 +25939,12 @@ page-return-tool .online-image {
 }
 
 page-return-tool .not {
+  text-align: center;
+  padding-top: 200px;
+  color: #676060;
+}
+
+page-tool-report .not {
   text-align: center;
   padding-top: 200px;
   color: #676060;

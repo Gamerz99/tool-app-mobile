@@ -8,7 +8,7 @@
   <div *ngIf="stock">
     <div class="profile-media">
       <div class="profile-details">
-        <img src="assets/imgs/logo.png" class="img-circle online-image">
+        <img src="{{stock.image}}" class="img-circle online-image">
         <h5 class="name">Tool Name : {{stock.tool}}</h5>
         <p class="p">Tool Brand : {{stock.brand}}</p>
         <p class="p">Tool Code : {{stock.barcode}}</p>

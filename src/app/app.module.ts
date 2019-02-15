@@ -16,6 +16,7 @@ import { PickToolPage } from '../pages/pick-tool/pick-tool';
 import { PickDetailPage } from '../pages/pick-detail/pick-detail';
 import { ReturnToolPage } from '../pages/return-tool/return-tool';
 import { ReturnDetailPage } from '../pages/return-detail/return-detail';
+import { ToolReportPage } from '../pages/tool-report/tool-report';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { ReturnDetailPage } from '../pages/return-detail/return-detail';
     PickToolPage,
     PickDetailPage,
     ReturnToolPage,
-    ReturnDetailPage
+    ReturnDetailPage,
+    ToolReportPage
   ],
   imports: [
     BrowserModule,
@@ -42,7 +44,8 @@ import { ReturnDetailPage } from '../pages/return-detail/return-detail';
     PickToolPage,
     PickDetailPage,
     ReturnToolPage,
-    ReturnDetailPage
+    ReturnDetailPage,
+    ToolReportPage
   ],
   providers: [
     CallNumber,

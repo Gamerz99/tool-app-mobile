@@ -42,4 +42,7 @@ export class ServiceProvider {
     return this.http.get(this.url + '/assign_api/tool_list/' + id).map(res => res.json());
   }
 
+  monthly_log(id) {
+    return this.http.get(this.url + '/tool_api/month_log/' + id).map(res => res.json());
+  }
 }

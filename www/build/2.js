@@ -1,14 +1,14 @@
 webpackJsonp([2],{
 
-/***/ 279:
+/***/ 283:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "PickDetailPageModule", function() { return PickDetailPageModule; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ReturnDetailPageModule", function() { return ReturnDetailPageModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(20);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__pick_detail__ = __webpack_require__(104);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(15);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__return_detail__ = __webpack_require__(107);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -18,23 +18,23 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
-var PickDetailPageModule = /** @class */ (function () {
-    function PickDetailPageModule() {
+var ReturnDetailPageModule = /** @class */ (function () {
+    function ReturnDetailPageModule() {
     }
-    PickDetailPageModule = __decorate([
+    ReturnDetailPageModule = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["I" /* NgModule */])({
             declarations: [
-                __WEBPACK_IMPORTED_MODULE_2__pick_detail__["a" /* PickDetailPage */],
+                __WEBPACK_IMPORTED_MODULE_2__return_detail__["a" /* ReturnDetailPage */],
             ],
             imports: [
-                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__pick_detail__["a" /* PickDetailPage */]),
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__return_detail__["a" /* ReturnDetailPage */]),
             ],
         })
-    ], PickDetailPageModule);
-    return PickDetailPageModule;
+    ], ReturnDetailPageModule);
+    return ReturnDetailPageModule;
 }());
 
-//# sourceMappingURL=pick-detail.module.js.map
+//# sourceMappingURL=return-detail.module.js.map
 
 /***/ })
 

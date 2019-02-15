@@ -13,8 +13,8 @@
         </button>
       </ion-fab>
       <div class="profile-details">
-        <img *ngIf="stock.stat == 1" src="assets/imgs/logo.png" class="img-circle online-image">
-        <img *ngIf="stock.stat == 3" src="assets/imgs/logo.png" class="img-circle offline-image">
+        <img *ngIf="stock.stat == 1" src="{{stock.image}}" class="img-circle online-image">
+        <img *ngIf="stock.stat == 3" src="{{stock.image}}" class="img-circle offline-image">
         <h5 class="name">Tool Name : {{stock.tool}}</h5>
         <p class="p">Tool Brand : {{stock.brand}}</p>
         <p class="p">Tool Code : {{stock.barcode}}</p>

@@ -1,13 +1,13 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /mnt/a1433b4f-4957-4622-af0e-733cd85070b5/Development/ionic/tool-app/platforms/android/app/src/main/AndroidManifest.xml:2:1-14:12
-INJECTED from /mnt/a1433b4f-4957-4622-af0e-733cd85070b5/Development/ionic/tool-app/platforms/android/app/src/main/AndroidManifest.xml:2:1-14:12
-INJECTED from /mnt/a1433b4f-4957-4622-af0e-733cd85070b5/Development/ionic/tool-app/platforms/android/app/src/main/AndroidManifest.xml:2:1-14:12
-INJECTED from /mnt/a1433b4f-4957-4622-af0e-733cd85070b5/Development/ionic/tool-app/platforms/android/app/src/main/AndroidManifest.xml:2:1-14:12
+ADDED from /mnt/a1433b4f-4957-4622-af0e-733cd85070b5/Development/ionic/tool-app/platforms/android/app/src/main/AndroidManifest.xml:2:1-16:12
+INJECTED from /mnt/a1433b4f-4957-4622-af0e-733cd85070b5/Development/ionic/tool-app/platforms/android/app/src/main/AndroidManifest.xml:2:1-16:12
+INJECTED from /mnt/a1433b4f-4957-4622-af0e-733cd85070b5/Development/ionic/tool-app/platforms/android/app/src/main/AndroidManifest.xml:2:1-16:12
+INJECTED from /mnt/a1433b4f-4957-4622-af0e-733cd85070b5/Development/ionic/tool-app/platforms/android/app/src/main/AndroidManifest.xml:2:1-16:12
 MERGED from [:CordovaLib] /mnt/a1433b4f-4957-4622-af0e-733cd85070b5/Development/ionic/tool-app/platforms/android/CordovaLib/build/intermediates/manifests/full/debug/AndroidManifest.xml:20:1-27:12
-INJECTED from /mnt/a1433b4f-4957-4622-af0e-733cd85070b5/Development/ionic/tool-app/platforms/android/app/src/main/AndroidManifest.xml:2:1-14:12
-INJECTED from /mnt/a1433b4f-4957-4622-af0e-733cd85070b5/Development/ionic/tool-app/platforms/android/app/src/main/AndroidManifest.xml:2:1-14:12
-INJECTED from /mnt/a1433b4f-4957-4622-af0e-733cd85070b5/Development/ionic/tool-app/platforms/android/app/src/main/AndroidManifest.xml:2:1-14:12
+INJECTED from /mnt/a1433b4f-4957-4622-af0e-733cd85070b5/Development/ionic/tool-app/platforms/android/app/src/main/AndroidManifest.xml:2:1-16:12
+INJECTED from /mnt/a1433b4f-4957-4622-af0e-733cd85070b5/Development/ionic/tool-app/platforms/android/app/src/main/AndroidManifest.xml:2:1-16:12
+INJECTED from /mnt/a1433b4f-4957-4622-af0e-733cd85070b5/Development/ionic/tool-app/platforms/android/app/src/main/AndroidManifest.xml:2:1-16:12
 	package
 		ADDED from /mnt/a1433b4f-4957-4622-af0e-733cd85070b5/Development/ionic/tool-app/platforms/android/app/src/main/AndroidManifest.xml:2:98-124
 		INJECTED from /mnt/a1433b4f-4957-4622-af0e-733cd85070b5/Development/ionic/tool-app/platforms/android/app/src/main/AndroidManifest.xml
@@ -90,3 +90,13 @@ INJECTED from /mnt/a1433b4f-4957-4622-af0e-733cd85070b5/Development/ionic/tool-a
 		ADDED from /mnt/a1433b4f-4957-4622-af0e-733cd85070b5/Development/ionic/tool-app/platforms/android/app/src/main/AndroidManifest.xml:13:15-41
 		INJECTED from /mnt/a1433b4f-4957-4622-af0e-733cd85070b5/Development/ionic/tool-app/platforms/android/app/src/main/AndroidManifest.xml
 		INJECTED from /mnt/a1433b4f-4957-4622-af0e-733cd85070b5/Development/ionic/tool-app/platforms/android/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.CALL_PHONE
+ADDED from /mnt/a1433b4f-4957-4622-af0e-733cd85070b5/Development/ionic/tool-app/platforms/android/app/src/main/AndroidManifest.xml:14:5-69
+	android:name
+		ADDED from /mnt/a1433b4f-4957-4622-af0e-733cd85070b5/Development/ionic/tool-app/platforms/android/app/src/main/AndroidManifest.xml:14:22-66
+uses-feature#android.hardware.telephony
+ADDED from /mnt/a1433b4f-4957-4622-af0e-733cd85070b5/Development/ionic/tool-app/platforms/android/app/src/main/AndroidManifest.xml:15:5-88
+	android:required
+		ADDED from /mnt/a1433b4f-4957-4622-af0e-733cd85070b5/Development/ionic/tool-app/platforms/android/app/src/main/AndroidManifest.xml:15:61-85
+	android:name
+		ADDED from /mnt/a1433b4f-4957-4622-af0e-733cd85070b5/Development/ionic/tool-app/platforms/android/app/src/main/AndroidManifest.xml:15:19-60

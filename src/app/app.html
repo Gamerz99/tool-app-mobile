@@ -1,7 +1,11 @@
 <ion-menu [content]="content">
   <ion-header>
-    <ion-toolbar color="primary">
-      <ion-title>{{userdata.name}}</ion-title>
+    <ion-toolbar style="text-align:center" color="primary">
+      <div *ngIf="userdata">
+        <img src="assets/imgs/user.svg" class="img-circle prof-image">
+        <ion-title>{{userdata.name}}</ion-title>
+        <p class="ps">{{userdata.phone}}</p>
+      </div>
     </ion-toolbar>
   </ion-header>
 

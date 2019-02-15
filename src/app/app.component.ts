@@ -8,6 +8,7 @@ import { LoginPage } from '../pages/login/login';
 import { LogoutPage } from '../pages/logout/logout';
 import { PickToolPage } from '../pages/pick-tool/pick-tool';
 import { ReturnToolPage } from '../pages/return-tool/return-tool';
+import { ToolReportPage } from '../pages/tool-report/tool-report';
 
 @Component({
   templateUrl: 'app.html'
@@ -30,6 +31,7 @@ export class MyApp {
       { title: 'Home', component: HomePage },
       { title: 'Pick Tool', component: PickToolPage },
       { title: 'Return Tool', component: ReturnToolPage },
+      { title: 'Tool Report', component: ToolReportPage },
       { title: 'Log Out', component: LogoutPage },
     ];
 

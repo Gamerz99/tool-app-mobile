@@ -26,8 +26,8 @@
     <ion-card *ngFor="let item of result" class="card-background">
       <ion-item>
         <ion-avatar item-start>
-          <img *ngIf="item.stat == 1" src="assets/imgs/logo.png" class="online-image">
-          <img *ngIf="item.stat == 3" src="assets/imgs/logo.png" class="offline-image">
+          <img *ngIf="item.stat == 1" src="{{item.image}}" class="online-image">
+          <img *ngIf="item.stat == 3" src="{{item.image}}" class="offline-image">
         </ion-avatar>
         <div class="card-title">Tool Name : {{item.tool}}</div>
         <p class="card-subtitle">Tool Code : {{item.barcode}}</p>
